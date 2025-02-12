@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-    titleElement.innerHTML = "YEHEY 😉🥰";
+    titleElement.innerHTML = "YEHEdsdsdwdaswdadasdwdasdY 😉🥰";
     buttonsContainer.classList.add("hidden");
     catImg.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2t2dGpuNmtwaGR3aXkwbXh5MXhxZzZ6aDMwZWV6N215aG4yMjVwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DFexVkRG7gX9oCy68r/giphy.gif";
 
