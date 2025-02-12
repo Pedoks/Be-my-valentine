@@ -1,0 +1,164 @@
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif; /* Unified font */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0); /* Smoother gradient */
+  text-align: center;
+  font-family: "Protest Riot", sans-serif;
+}
+
+/* Container Styling */
+.container {
+  height: 85vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white; /* Unified container background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styling */
+.title {
+  font-size: 3.6rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1.5rem 2.5rem;
+  border: none;
+  border-radius: 4px;
+  color: rgb(140, 25, 25);
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn--yes {
+  background-color: #40c057;
+}
+
+.btn--no {
+  background-color: #f03e3e;
+}
+
+/* GIF Container */
+.gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+  overflow: hidden;
+  margin-top: -3rem;
+  text-align: center;
+}
+
+.gif-container img {
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem;
+}
+
+/* Inputs */
+input {
+  width: 80%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ff6b81;
+  border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d83a69;
+}
+
+/* Loading Text */
+#loadingText {
+  font-size: 1.2rem;
+  color: #ff477e;
+  margin-top: 1rem;
+}
+
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.modal-content {
+  background: white;
+  width: 60vw; /* Make it bigger */
+  max-width: 500px; /* Prevent it from being too wide on big screens */
+  padding: 3rem; /* More padding for better spacing */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content p {
+  font-size: 1.8rem; /* Increase font size */
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+/* Ensure modal works on smaller screens */
+@media (max-width: 600px) {
+  .modal-content {
+    width: 80vw;
+    padding: 2rem;
+  }
+}
+
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}

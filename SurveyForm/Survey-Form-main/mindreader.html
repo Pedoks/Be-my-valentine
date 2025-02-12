@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Reader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Think of a Word 🤔</h1>
+        <input type="text" id="userInput" placeholder="Type your word here..." />
+        <button id="readMindBtn">Read My Mind</button>
+        <p id="loadingText" class="hidden"></p>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <p>💖 You're thinking of being my Valentine date! 💖</p>
+            <button id="redirectBtn">Yes, Let's Go!</button>
+        </div>
+    </div>
+
+    <script src="scriptmr.js"></script>
+
+</body>
+</html>
